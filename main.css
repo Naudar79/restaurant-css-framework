@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    position: relative;
+    width: 100%;
+    position: relative;
+    background-color: rgb(255,255,255,5);
+    background-image: url(images/eat-1705556_1920.jpg);
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+span{
+    color: black;
+}
