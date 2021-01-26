@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-$blue : rgb(66, 139, 202); 
-
+$blue: rgb(66,
+139,
+202);
 body {
     background-color: white;
 }
@@ -19,35 +19,39 @@ header {
     }
     .navbar-toggler-icon {
         color: white;
-}
+    }
     li:hover {
-    border-bottom: 1px solid white;
-}
+        border-bottom: 1px solid white;
+    }
 }
 
+.frmContact {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: white;
+}
 
 footer {
     background-color: black;
 }
 
 .social-links {
-	width: 50px;
+    width: 50px;
     margin-top: 1.5em;
 }
 
-.social-links img{
-	width: 30px;
-	margin: 5px auto;
-	cursor: pointer;
+.social-links img {
+    width: 30px;
+    margin: 5px auto;
+    cursor: pointer;
 }
 
 .social-links img:hover {
-	background-color: $blue;
-	transition: 0.4s;
-	border-radius: 25px;
+    background-color: $blue;
+    transition: 0.4s;
+    border-radius: 25px;
 }
 
 .lorem {
     height: 1000px;
 }
-
