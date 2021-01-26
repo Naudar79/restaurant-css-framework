@@ -23,6 +23,18 @@ header {
     li:hover {
         border-bottom: 1px solid white;
     }
+    /*
+    .entete {
+        height: 50px;
+        width: auto;
+        margin-right: 30em;
+    }
+    */
+}
+
+#mailBox {
+    box-shadow: lightgrey 0.2em 0.2em;
+    border-radius: 10em 10em 10en 10en;
 }
 
 .frmContact {
