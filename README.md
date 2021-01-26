@@ -1,6 +1,6 @@
 # restaurant-css-framework
 
-## Project rstaurant
+## Project restaurant
 
 Team : 
 ------
