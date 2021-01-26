@@ -42,3 +42,12 @@ Before starting our html writing, we established a page canvas, with for each, *
 That we have shared so that we can start to fill our pages individually.
 Once the html was written, we moved on to Bootstrap and Sass.
 *In order to organize and style our page.*
+
+## The sources of our images:
+
+ - Home:
+ - Menu: https://app.miap.co/?table=091000#/authentication
+ - Pictures:
+ - Restaurant:
+ - Contact:
+
