@@ -86,46 +86,64 @@
                                 <div class="form-group">
                                     <!--AWA : block firstname + validate-->
                                     <label for="firstName">Firstname</label>
-                                    <input type="text" class="form-control" id="nom" placeholder="Firstname" required>
-                                    <div class="valid-feedback">Valid.</div>
+                                    <input type="text" class="form-control border border-dark" id="nom" placeholder="Firstname" required>
+                                    <div class="valid-feedback">Valid</div>
                                     <div class="invalid-feedback">Required</div>
                                 </div>
                                 <div class="form-group">
                                     <!--AWA : block Lastname + validate-->
                                     <label for="lastname">Lastname</label>
-                                    <input type="text" class="form-control" id="nom" placeholder="Lastname" required>
-                                    <div class="valid-feedback">Valid.</div>
+                                    <input type="text" class="form-control border border-dark" id="nom" placeholder="Lastname" required>
+                                    <div class="valid-feedback">Valid</div>
                                     <div class="invalid-feedback">Required</div>
                                 </div>
                                 <div class="form-group">
                                     <!--AWA : block Email + validate-->
                                     <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" placeholder="your mail here" required>
-                                    <div class="valid-feedback">Valid.</div>
+                                    <input type="email" class="form-control border border-dark" id="email" placeholder="your mail here" required>
+                                    <div class="valid-feedback">Valid</div>
                                     <div class="invalid-feedback">Required</div>
                                 </div>
                                 <div class="form-group">
                                     <!--AWA : block Phone number + validate-->
                                     <label for="phone">Phone number</label>
-                                    <input type="text" class="form-control" id="nom" placeholder="+32 (0)71 12 23 34" required>
-                                    <div class="valid-feedback">Valid.</div>
+                                    <input type="text" class="form-control border border-dark" id="nom" placeholder="+32 (0)71 12 23 34" required>
+                                    <div class="valid-feedback">Valid</div>
                                     <div class="invalid-feedback">Required</div>
                                 </div>
                                 <div class="form-group">
                                     <!--AWA : block List to select the location-->
                                     <label for="selection">Select your place </label>
-                                    <select id="selection" class="form-control">
-                        <option value="">location...</option>
-                          <option value="">Charleroi (BE)</option>
-                          <option value="">Milan (IT)</option>
-                          <option value="">Paris (FR)</option>
-                          <option value="">Dubai (EK)</option>
-                      </select>
+                                    <select id="selection" class="form-control border border-dark">
+                                        <option value="">location...</option>
+                                        <option value="">Charleroi (BE)</option>
+                                        <option value="">Milan (IT)</option>
+                                        <option value="">Paris (FR)</option>
+                                        <option value="">Dubai (EK)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <!--AWA : block List to select the option-->
+                                    <label for="selection">Why contact us ? </label>
+                                    <select id="selection" class="form-control border border-dark">
+                                        <option value="">select...</option>
+                                        <option value="">Information</option>
+                                        <option value="">Order</option>
+                                        <option value="">Reserve</option>
+                                    </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="message">Message</label>
                                     <!--AWA : block message box-->
-                                    <textarea class="form-control" id="message" rows="3"></textarea>
+                                    <textarea class="form-control border border-dark" id="message" rows="3"></textarea>
+                                </div>
+                                <div class="form-group form-check">
+                                    <!--AWA : block check private policy-->
+                                    <label class="form-check-label">
+                                      <input class="form-check-input border border-dark" type="checkbox" name="remember" required> I agree on blabla.
+                                      <div class="valid-feedback">Valid</div>
+                                      <div class="invalid-feedback">Check this checkbox to continue.</div>
+                                    </label>
                                 </div>
                                 <!--AWA : Submit button-->
                                 <button type="submit" class="btn btn-primary bg-white btn btn-outline-light">                                    
