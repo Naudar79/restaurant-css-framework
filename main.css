@@ -12,13 +12,34 @@
     width: 100%;
     flex-wrap: wrap;
     background-color: rgb(255,255,255,5);
-    background-image: url(images/eat-1705556_1920.jpg);
+    animation: animate 35s ease-in-out infinite;
     background-size: cover;
     height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+}
+@keyframes animate {
+    0%{
+        background-image: url(images/red-wine-2443699_1920.jpg);
+    }
+    20%{
+        background-image: url(images/eat-1705556_1920.jpg);
+    }
+    40%{
+        background-image: url(images/georgian-cuisine-198356_1920.jpg);
+    }
+    60%{
+        background-image: url(images/bistro-2594762_1920.jpg);
+    }
+    80%{
+        background-image: url(images/barbecue-1239434_1920.jpg);
+    }
+    100%{
+        background-image: url(images/doner-kebab-2335784_1920.jpg);
+    }
+
 }
 span{
     color: black;
