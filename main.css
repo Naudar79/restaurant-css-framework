@@ -52,6 +52,10 @@ main {
     height: auto;
     flex-wrap: wrap;
 }
+.entete {
+    width: 30px;
+    height: auto;
+}
 .section1 {
     width: 100%;
     position: relative;
