@@ -6,7 +6,8 @@
 }
 .body{
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .head{
     position: relative;
@@ -24,21 +25,45 @@
 @keyframes animate {
     0%{
         background-image: url(images/red-wine-2443699_1920.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     20%{
         background-image: url(images/eat-1705556_1920.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     40%{
         background-image: url(images/georgian-cuisine-198356_1920.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     60%{
         background-image: url(images/bistro-2594762_1920.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     80%{
         background-image: url(images/barbecue-1239434_1920.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     100%{
         background-image: url(images/doner-kebab-2335784_1920.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
 
 }
@@ -46,6 +71,7 @@ span{
     color: black;
 }
 main {
+    width: 100%;
     margin-top: 5em;
     display: flex;
     flex-direction: column;
@@ -60,20 +86,30 @@ main {
     background-image: url(images/dinner-table-444434_1920.jpg);
     margin-bottom: 2em;
     flex-wrap: wrap;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    
 }
 .article1, .article2{
-    display: inline-block;
-    position: relative;
+   /* display: inline-block;
+    position: relative;*/
     width: 45%;
     background-color: white;
     margin: 5em 0 5em 0;
     border-radius: 20px;
     box-shadow: inset 4px 4px rgb(167, 153, 153);
 }
-.article2 img{
+.article1 img{
     position: relative;
+    display: block;
     width: 100%;
     height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .article1 {
     color: black;
@@ -100,12 +136,14 @@ main {
     width: 100%;
     height: auto;
 }
-.mycol{
+.article1 .mycol{
     margin-top: 2em;
+   color: white;
+   width: 100%;
     
 }
 .mycol img{
-    width: 95%;
+    width: 100%
     
 }
 figcaption {
@@ -114,4 +152,7 @@ figcaption {
 .myR{
     margin-top: 1em;
     background-color: rgba(252, 250, 250, 0.5);
+}
+.mycol2 {
+    color: white;
 }
