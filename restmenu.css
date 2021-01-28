@@ -43,6 +43,7 @@ footer {
 
 .social-links img:hover {
   background-color: #428bca;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 25px;
 }
@@ -58,7 +59,8 @@ footer {
 .epice {
   height: 25%;
   width: auto;
-  box-shadow: 10px 10px 5px grey;
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey;
 }
 
 .entete {
@@ -79,14 +81,12 @@ footer {
 
 .container-img .epice {
   -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .container-img:hover .epice {
-  transform: rotate(5deg) scale(1.7);
+  -webkit-transform: rotate(5deg) scale(1.7);
+          transform: rotate(5deg) scale(1.7);
 }
 
 .underline--magical {
@@ -94,6 +94,7 @@ footer {
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
+  -webkit-transition: background-size 0.25s ease-in;
   transition: background-size 0.25s ease-in;
 }
 
@@ -101,3 +102,4 @@ footer {
   background-size: 100% 88%;
   color: aliceblue;
 }
+/*# sourceMappingURL=restmenu.css.map */
