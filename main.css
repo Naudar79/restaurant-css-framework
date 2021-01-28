@@ -53,8 +53,8 @@ main {
     flex-wrap: wrap;
 }
 .entete {
-    width: 20px;
-    height: auto;
+   height: 20px;
+    width: auto;
     margin-right: 30em;
 }
 .section1 {
