@@ -155,4 +155,10 @@ figcaption {
 }
 .mycol2 {
     color: white;
+    background-color: rgb(185, 132, 132, .4);
+    width: 45%;
+    box-shadow: inset 4px 4px brown;
+    text-align: center;
+    padding: 2em;
+    border-radius: 20px;
 }
