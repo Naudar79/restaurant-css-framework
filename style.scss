@@ -7,7 +7,6 @@ body {
     display: block;
 }
 
-
 header {
     font-family: 'Montserrat', sans-serif;
     color: white;
@@ -174,20 +173,16 @@ footer {
 	width: 30px;
 	margin: 5px auto;
     cursor: pointer;
+    &:hover {
+        background-color: $blue;
+        transition: 0.4s;
+        border-radius: 25px;
+    }
 }
 
-.social-links img:hover {
-	background-color: $blue;
-	transition: 0.4s;
-	border-radius: 25px;
-}
 
-blockquote {
-    font-family: 'Lora', serif;
-}
 
-h2 {
-    font-family: 'EB Garamond', serif;
-}
+
+
 
 
