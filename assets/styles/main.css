@@ -23,22 +23,22 @@
 }
 @keyframes animate {
     0%{
-        background-image: url(images/red-wine-2443699_1920.jpg);
+        background-image: url(../img/red-wine-2443699_1920.jpg);
     }
     20%{
-        background-image: url(images/eat-1705556_1920.jpg);
+        background-image: url(../img/eat-1705556_1920.jpg);
     }
     40%{
-        background-image: url(images/georgian-cuisine-198356_1920.jpg);
+        background-image: url(../img/georgian-cuisine-198356_1920.jpg);
     }
     60%{
-        background-image: url(images/bistro-2594762_1920.jpg);
+        background-image: url(../img/bistro-2594762_1920.jpg);
     }
     80%{
-        background-image: url(images/barbecue-1239434_1920.jpg);
+        background-image: url(../img/barbecue-1239434_1920.jpg);
     }
     100%{
-        background-image: url(images/doner-kebab-2335784_1920.jpg);
+        background-image: url(../img/doner-kebab-2335784_1920.jpg);
     }
 
 }
@@ -52,16 +52,13 @@ main {
     height: auto;
     flex-wrap: wrap;
 }
-.entete {
-   height: 20px;
-    width: auto;
-}
+
 .section1 {
     width: 100%;
     position: relative;
     display: flex;
     justify-content: space-around;
-    background-image: url(images/dinner-table-444434_1920.jpg);
+    background-image: url(../img/dinner-table-444434_1920.jpg);
     margin-bottom: 2em;
     flex-wrap: wrap;
 }
