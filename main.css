@@ -55,6 +55,7 @@ main {
 .entete {
     width: 30px;
     height: auto;
+    margin-right: 30em;
 }
 .section1 {
     width: 100%;
