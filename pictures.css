@@ -17,6 +17,11 @@ header .navbar-brand {
   margin-right: 20em;
 }
 
+header img {
+  height: 30px;
+  width: auto;
+}
+
 header .nav-link {
   color: white;
 }
@@ -220,5 +225,12 @@ footer {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  .social-links img {
+    margin-top: 0;
+    width: 50px;
+  }
 }
 /*# sourceMappingURL=pictures.css.map */

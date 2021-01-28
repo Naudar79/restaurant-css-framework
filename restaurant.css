@@ -1,48 +1,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 body {
   background-color: white;
+  display: block;
 }
 
 header {
+  font-family: 'Montserrat', sans-serif;
   color: white;
   background-color: black;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='7' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 3px -2px 11px -3px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 3px -2px 11px -3px rgba(0, 0, 0, 0);
 }
+
 header .navbar-brand {
   margin-right: 20em;
 }
+
+header img {
+  height: 30px;
+  width: auto;
+}
+
 header .nav-link {
   color: white;
 }
+
 header .navbar-toggler-icon {
   color: white;
 }
+
 header li:hover {
   border-bottom: 1px solid white;
 }
 
 h1 {
   padding-top: 15px;
-  letter-spacing: 0.2em;
+  letter-spacing: .2em;
+  text-align: center;
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: .2em;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%233b3b3b' stroke-width='10' stroke-opacity='0.28'%3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
 
 p {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 12px;
 }
 
 footer {
+  margin-top: 15vh;
   background-color: black;
 }
 
@@ -64,6 +79,10 @@ footer {
   border-radius: 25px;
 }
 
-.lorem {
-  height: 1000px;
-}/*# sourceMappingURL=style.css.map */
+@media (max-width: 768px) {
+  .social-links img {
+    margin-top: 0;
+    width: 50px;
+  }
+}
+/*# sourceMappingURL=restaurant.css.map */
