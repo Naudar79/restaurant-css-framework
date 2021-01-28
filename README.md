@@ -11,3 +11,5 @@
   This section uses a bootstrap grid layout. It contains three rows. The first row is made up of a column with a size of 12 on all screens. This column is attributed an image and an h4 title. The other two  rows  contains two equal size columns each. The size of each column is 6 on larger screens and 12 on smaller screen (for stacking effect).
   Finally each column contain an image and a caption encapsulated in a figure tag.
 
+## bibliographie 
+images: https://pixabay.com/
