@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.grid-layout {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(180px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-gap: 1em;
+  grid-auto-rows: minmax(180px, auto);
+}
+
+.grid-item {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 3px -2px 11px -3px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 3px -2px 11px -3px rgba(0, 0, 0, 0);
+  opacity: 0;
+  -webkit-animation: loading;
+          animation: loading;
+  -webkit-animation-duration: .4s;
+          animation-duration: .4s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.grid-item:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.grid-item-1 {
+  background-image: url(../img/meat.jpg);
+  background-position: center;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+.grid-item-2 {
+  background-image: url(../img/interior.jpg);
+  background-position: center;
+  -webkit-animation-delay: .7s;
+          animation-delay: .7s;
+}
+
+.grid-item-3 {
+  background-image: url(../img/exterior.jpg);
+  background-position: center;
+  -webkit-animation-delay: .9s;
+          animation-delay: .9s;
+}
+
+.grid-item-4 {
+  background-image: url(../img/patio.jpg);
+  background-position: center;
+  -webkit-animation-delay: 1.1s;
+          animation-delay: 1.1s;
+}
+
+.grid-item-5 {
+  background-image: url(../img/kebab.jpg);
+  background-position: center;
+  -webkit-animation-delay: 1.3s;
+          animation-delay: 1.3s;
+}
+
+.grid-item-6 {
+  background-image: url(../img/chef.jpg);
+  background-position: center;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+}
+
+.grid-item-7 {
+  background-image: url(../img/coffee.jpg);
+  background-position: center;
+  -webkit-animation-delay: 1.7s;
+          animation-delay: 1.7s;
+}
+
+.grid-item-8 {
+  background-image: url(../img/food.jpg);
+  background-position: center;
+  -webkit-animation-delay: 1.9s;
+          animation-delay: 1.9s;
+}
+
+.grid-item-9 {
+  background-image: url(../img/champain.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  -webkit-animation-delay: 2.1s;
+          animation-delay: 2.1s;
+}
+
+.grid-item-10 {
+  background-image: url(../img/bonbons.jpg);
+  background-position: center;
+  -webkit-animation-delay: 2.3s;
+          animation-delay: 2.3s;
+}
+
+.grid-item-11 {
+  background-image: url(../img/wine.jpg);
+  background-position: center;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+}
+
+.grid-item-12 {
+  background-image: url(../img/kitchen.jpg);
+  background-position: center;
+  -webkit-animation-delay: 2.7s;
+          animation-delay: 2.7s;
+}
+
+.grid-item-13 {
+  background-image: url(../img/champagne.jpg);
+  background-position: center;
+  -webkit-animation-delay: 2.9s;
+          animation-delay: 2.9s;
+}
+
+@-webkit-keyframes loading {
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(5px);
+    filter: brightness(0%);
+  }
+  80% {
+    -webkit-filter: blur(5px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-filter: blur(0px);
+    filter: brightness(100%);
+  }
+}
+
+@keyframes loading {
+  0% {
+    opacity: 0;
+    -webkit-filter: blur(5px);
+    filter: brightness(0%);
+  }
+  80% {
+    -webkit-filter: blur(5px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-filter: blur(0px);
+    filter: brightness(100%);
+  }
+}
+
+.square {
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+  -ms-grid-row-span: 2;
+      grid-row-end: span 2;
+}
+
+.rectangle {
+  -ms-grid-column-span: 2;
+      grid-column-end: span 2;
+  -ms-grid-row-span: 4;
+      grid-row-end: span 4;
+}
+
+/*# sourceMappingURL=pictures.css.map */
